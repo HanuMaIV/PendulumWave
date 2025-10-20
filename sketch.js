@@ -35,7 +35,7 @@ function Pendulum(origin_, r_) {
   this.origin = origin_.copy();
   this.position = createVector();
   this.r = r_;
-  this.angle = PI/4;
+  this.angle = PI/15;
 
   this.aVelocity = 0.0;
   this.aAcceleration = 0.0;
